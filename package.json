@@ -1,0 +1,17 @@
+{
+  "name": "jorang",
+  "version": "1.0.0",
+  "main": "index.php",
+  "repository": "https://github.com/kangsunat/jorang.git",
+  "author": "jorang",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "tw": "npx tailwindcss -i ./styles/tw.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  }
+}
