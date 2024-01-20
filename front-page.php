@@ -2,7 +2,7 @@
 
 <header>
 
-    <video style="margin: 0; padding: 0;" class="w-full h-screen bg-cover aspect-video" controls>
+    <video class="w-full bg-cover" autoplay muted loop>
         <source
             src="http://jorang.test/wp-content/uploads/2024/01/Best-FREE-AI-Text-to-Animated-Video-Generator-Disney-Animation-Inspired-11ai-YouTube.mp4"
             type="video/mp4">

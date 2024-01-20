@@ -2007,6 +2007,10 @@ nav {
      object-fit: scale-down !important;
 }
 
+.p-0 {
+  padding: 0px !important;
+}
+
 .text-left {
   text-align: left !important;
 }
