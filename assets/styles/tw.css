@@ -9,5 +9,6 @@ Version: 1.0
 
 @import 'tailwindcss/components';
 @import 'components/nav.scss';
+@import 'components/footer.scss';
 
 @import 'tailwindcss/utilities';
