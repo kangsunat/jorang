@@ -751,8 +751,8 @@ select {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 8rem;
-  padding-left: 8rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
 }
 
 @media (min-width: 640px) {
@@ -861,8 +861,8 @@ footer {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 12rem;
+    padding-left: 12rem;
   }
   @media (min-width: 640px) {
     #footer-left {
@@ -915,8 +915,8 @@ footer {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 12rem;
+    padding-left: 12rem;
   }
   @media (min-width: 640px) {
     #footer-right {
@@ -961,6 +961,11 @@ footer {
   #footer-right {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+  #footer-right {
+    .footer-menus {
+      font-weight: 500;
+    }
   }
 }
 
@@ -1240,6 +1245,10 @@ footer {
 
 .w-full {
   width: 100% !important;
+}
+
+.w-\[60\%\] {
+  width: 60% !important;
 }
 
 .flex-1 {

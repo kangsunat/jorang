@@ -14,7 +14,7 @@
                 <img src="<?= $logo[0] ?>" alt="company-logo" class="w-10 aspect-square">
                 <p class="text-lg font-semibold">Logo</p>
             </a>
-            <p class="w-[40%] font-medium">Be saying moveth spirit fruitful called set evening fly give shall moveth
+            <p class="font-medium">Be saying moveth spirit fruitful called set evening fly give shall moveth
                 lesser very.
             </p>
         </div>
@@ -59,7 +59,7 @@
                     <li><a href=""> Privacy</a></li>
                 </ul>
             </div>
-            <small class='ml-96 block'>© 2022. All rights reserved.</small>
+            <small class="block text-right">© 2022. All rights reserved.</small>
         </div>
 
     </div>
