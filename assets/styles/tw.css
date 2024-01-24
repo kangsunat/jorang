@@ -6,9 +6,9 @@ Version: 1.0
 
 */
 @import 'tailwindcss/base';
-
+@import 'tailwindcss/utilities';
 @import 'tailwindcss/components';
+
 @import 'components/nav.scss';
 @import 'components/footer.scss';
-
-@import 'tailwindcss/utilities';
+/* @import 'components/home/about.scss'; */
