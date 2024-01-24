@@ -1074,6 +1074,11 @@ select {
   height: 100vh !important;
 }
 
+.h-fit {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+
 .w-10 {
   width: 2.5rem !important;
 }
@@ -2486,6 +2491,11 @@ select {
   padding-bottom: 0.5rem !important;
 }
 
+.py-20 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
 .pl-10 {
   padding-left: 2.5rem !important;
 }
@@ -2586,6 +2596,16 @@ select {
 .text-xl {
   font-size: 1.25rem !important;
   line-height: 1.75rem !important;
+}
+
+.text-8xl {
+  font-size: 6rem !important;
+  line-height: 1 !important;
+}
+
+.text-6xl {
+  font-size: 3.75rem !important;
+  line-height: 1 !important;
 }
 
 .font-bold {
