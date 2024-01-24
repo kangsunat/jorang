@@ -6,4 +6,6 @@
 <?php get_template_part('template-parts/home/portfolio') ?>
 <?php get_template_part('template-parts/home/work-process') ?>
 <?php get_template_part('template-parts/home/our-values') ?>
+<?php get_template_part('template-parts/home/our-client') ?>
+<?php get_template_part('template-parts/home/contact') ?>
 <?php get_footer(); ?>
