@@ -1,4 +1,4 @@
-<footer>
+<footer class="text-neutral-500">
     <!-- lefrt -->
     <div id="footer-left">
         <div class="space-y-8">
@@ -36,9 +36,14 @@
     </div>
     <div id='footer-right'>
         <!-- form subcribtion -->
-        <form action="#">
-            <p class="text-neutral-500 font-medium text-sm">subscribe to our newsletter</p>
-            <input type="email" placeholder=" your email addresss">
+        <form action="#" class="space-y-4">
+            <p class="text-neutral-700 font-medium text-sm">subscribe to our newsletter</p>
+            <div
+                class="flex gap-3 items-center justify-between border-x-0 border-t-0 border-b-neutral-800 text-neutral-500 border-b-2">
+                <input type="email" placeholder=" your email addresss"
+                    class="bg-transparent focus:ring-0 border-none px-0 w-full">
+                <button>Send</button>
+            </div>
         </form>
         <div class="space-y-5">
             <div class='flex gap-10'>
