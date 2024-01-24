@@ -23,7 +23,7 @@
                 corporis aperiam voluptate eligendi quas, provident officiis accusamus, eius obcaecati tempora officia
                 fuga sequi eum cum.
             </p>
-            <button class="flex items-center gap-3 bg-black text-white py-1 px-3">
+            <button class="flex items-center gap-3 bg-black text-white py-2 px-5">
                 <p>Read more</p>
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
