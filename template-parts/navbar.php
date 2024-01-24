@@ -8,11 +8,10 @@
             <?php
             if (function_exists("the_custom_logo")) {
                 $custom_logo_id = get_theme_mod('custom_logo');
-                $logo = wp_get_attachment_image_src($custom_logo_id);
-
+                $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
             }
-            ;
             ?>
+
             <img src="<?= $logo[0] ?>" alt="company-logo">
             <p>
                 <?= get_bloginfo('name') ?>

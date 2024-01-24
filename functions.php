@@ -2,7 +2,6 @@
 
 function theme_support()
 {
-    // diamic title tag
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
 }
@@ -18,10 +17,11 @@ function load_css()
 
 add_action('wp_enqueue_scripts', 'load_css');
 
-function tema_anda_register_menus() {
+function tema_anda_register_menus()
+{
     $locations = array(
         'head-menus' => 'head menus',
-        'footer-menus'=>'footer menus'
+        'footer-menus' => 'footer menus'
     );
     register_nav_menus($locations);
 }
