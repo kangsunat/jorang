@@ -3,4 +3,5 @@
 <?php get_template_part('template-parts/home/about') ?>
 <?php get_template_part('template-parts/home/services') ?>
 <?php get_template_part('template-parts/home/cta') ?>
+<?php get_template_part('template-parts/home/portfolio') ?>
 <?php get_footer(); ?>
