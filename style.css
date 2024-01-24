@@ -1134,6 +1134,10 @@ select {
   width: 100% !important;
 }
 
+.w-\[400px\] {
+  width: 400px !important;
+}
+
 .max-w-4xl {
   max-width: 56rem !important;
 }
@@ -1758,6 +1762,12 @@ select {
   --tw-space-y-reverse: 0 !important;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse))) !important;
   margin-bottom: calc(2rem * var(--tw-space-y-reverse)) !important;
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)) !important;
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {

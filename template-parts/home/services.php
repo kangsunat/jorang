@@ -8,7 +8,8 @@
                     <i class="fa-solid fa-fire text-orange-500"></i>
                 </span>
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quia consequuntur error, voluptate
+            <p class='w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quia consequuntur
+                error, voluptate
                 dolorem
                 similique, asperiores repellendus fugit porro quibusdam harum pariatur dignissimos veniam qui suscipit
                 animi
@@ -18,7 +19,7 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
         </div>
-        <div class="py-10 z-20 self-center">
+        <div class="py-10 z-20 space-y-6 self-center">
             <div class="border-b space-y-3 border-neutral-500 py-3">
                 <!-- title -->
                 <div class="flex items-center justify-between">
