@@ -1,4 +1,4 @@
-<footer class="text-neutral-500">
+<footer>
     <!-- lefrt -->
     <div id="footer-left">
         <div class="space-y-8">
@@ -67,6 +67,9 @@
             <small class="block text-right">© 2022. All rights reserved.</small>
         </div>
 
+    </div>
+    <div
+        class="aspect-square w-[400px] rounded-full bg-neutral-800 absolute right-0 bottom-0 translate-x-20 translate-y-10">
     </div>
 </footer>
 </body>

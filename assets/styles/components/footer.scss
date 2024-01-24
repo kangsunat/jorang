@@ -1,13 +1,13 @@
 @layer components {
   footer {
-    @apply flex items-center justify-between h-[90vh] bg-black text-white;
+    @apply flex items-center justify-between h-[90vh] bg-black text-neutral-500 relative overflow-hidden;
 
     #footer-left {
       @apply w-5/12 shrink-0 h-full container py-32 flex flex-col justify-between;
     }
 
     #footer-right {
-      @apply flex-1 h-full container flex flex-col justify-between py-32;
+      @apply z-20 flex-1 h-full container flex flex-col justify-between py-32;
 
       .footer-menus {
         @apply font-medium;
