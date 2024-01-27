@@ -925,6 +925,10 @@ select {
   margin-bottom: 2rem !important;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
 .mb-8 {
   margin-bottom: 2rem !important;
 }
@@ -1169,6 +1173,18 @@ select {
   width: 13rem !important;
 }
 
+.w-56 {
+  width: 14rem !important;
+}
+
+.w-60 {
+  width: 15rem !important;
+}
+
+.w-64 {
+  width: 16rem !important;
+}
+
 .w-72 {
   width: 18rem !important;
 }
@@ -1220,18 +1236,6 @@ select {
 
 .w-full {
   width: 100% !important;
-}
-
-.w-60 {
-  width: 15rem !important;
-}
-
-.w-56 {
-  width: 14rem !important;
-}
-
-.w-64 {
-  width: 16rem !important;
 }
 
 .max-w-4xl {
@@ -1913,6 +1917,12 @@ select {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse)) !important;
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse)) !important;
+}
+
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0 !important;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse))) !important;
@@ -2421,6 +2431,16 @@ select {
   border-color: rgb(209 213 219 / var(--tw-border-opacity)) !important;
 }
 
+.border-neutral-300 {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(212 212 212 / var(--tw-border-opacity)) !important;
+}
+
+.border-neutral-400 {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(163 163 163 / var(--tw-border-opacity)) !important;
+}
+
 .border-neutral-500 {
   --tw-border-opacity: 1 !important;
   border-color: rgb(115 115 115 / var(--tw-border-opacity)) !important;
@@ -2691,6 +2711,16 @@ select {
   padding-right: 0px !important;
 }
 
+.px-10 {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.px-20 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
 .px-3 {
   padding-left: 0.75rem !important;
   padding-right: 0.75rem !important;
@@ -2751,14 +2781,8 @@ select {
   padding-bottom: 2rem !important;
 }
 
-.px-10 {
-  padding-left: 2.5rem !important;
-  padding-right: 2.5rem !important;
-}
-
-.px-20 {
-  padding-left: 5rem !important;
-  padding-right: 5rem !important;
+.pb-2 {
+  padding-bottom: 0.5rem !important;
 }
 
 .pl-10 {
@@ -3799,7 +3823,7 @@ footer {
   margin-top: 5rem;
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-color: rgb(212 212 212 / var(--tw-border-opacity));
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   img {
