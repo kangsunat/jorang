@@ -40,7 +40,7 @@
             <p class="text-neutral-700 font-medium text-sm">subscribe to our newsletter</p>
             <div
                 class="flex gap-3 items-center justify-between border-x-0 border-t-0 border-b-neutral-800 text-neutral-500 border-b-2">
-                <input type="email" placeholder=" your email addresss"
+                <input type="email" placeholder="your email addresss"
                     class="bg-transparent focus:ring-0 border-none px-0 w-full placeholder:text-neutral-500">
                 <button>Send</button>
             </div>
