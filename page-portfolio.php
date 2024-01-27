@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
-<h1>portfolio page</h1>
+<main class="container">
+    <?php get_template_part('template-parts/portfolio/header') ?>
+</main>
 
 <?php get_footer(); ?>
