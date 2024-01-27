@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
-<main class="container h-96"> contact page</main>
+<main class="bg-black">
+    <?php get_template_part('template-parts/contact/header') ?>
+</main>
 
 <?php get_footer(); ?>
