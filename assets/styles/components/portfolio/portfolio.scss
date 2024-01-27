@@ -6,4 +6,12 @@
       @apply font-medium;
     }
   }
+
+  .portfolio-our-client {
+    @apply py-10 border-b-2 mt-20 border-black;
+
+    img {
+      @apply aspect-auto w-20;
+    }
+  }
 }
