@@ -11,11 +11,12 @@
                 $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
             }
             ?>
-
-            <img src="<?= $logo[0] ?>" alt="company-logo">
-            <p>
-                <?= get_bloginfo('name') ?>
-            </p>
+            <a href="<?= esc_url(home_url('/')) ?>" class="flex items-center gap-3">
+                <img src="<?= $logo[0] ?>" alt="company-logo">
+                <p>
+                    <?= get_bloginfo('name') ?>
+                </p>
+            </a>
         </div>
         <!-- end company logo -->
 
