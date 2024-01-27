@@ -965,6 +965,10 @@ select {
   margin-top: 1rem !important;
 }
 
+.mt-5 {
+  margin-top: 1.25rem !important;
+}
+
 .mt-8 {
   margin-top: 2rem !important;
 }
@@ -2697,6 +2701,11 @@ select {
   padding-bottom: 3rem !important;
 }
 
+.py-14 {
+  padding-top: 3.5rem !important;
+  padding-bottom: 3.5rem !important;
+}
+
 .py-2 {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
@@ -2720,11 +2729,6 @@ select {
 .py-8 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
-}
-
-.py-14 {
-  padding-top: 3.5rem !important;
-  padding-bottom: 3.5rem !important;
 }
 
 .pl-10 {
@@ -2862,6 +2866,10 @@ select {
 
 .font-semibold {
   font-weight: 600 !important;
+}
+
+.font-light {
+  font-weight: 300 !important;
 }
 
 .uppercase {
@@ -3746,6 +3754,17 @@ footer {
   }
 }
 
+.portfolio-category {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  li {
+    font-weight: 500;
+  }
+}
+
 /* @import 'components/home/about.scss'; */
 
 @media (min-width: 640px) {
@@ -3800,6 +3819,10 @@ footer {
 
 .hover\:font-bold:hover {
   font-weight: 700 !important;
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline !important;
 }
 
 .before\:hover\:text-center:hover::before {

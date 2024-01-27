@@ -1,0 +1,9 @@
+@layer components {
+  .portfolio-category {
+    @apply flex items-center gap-4 justify-center mt-5;
+
+    li {
+      @apply font-medium;
+    }
+  }
+}

@@ -11,4 +11,5 @@ Version: 1.0
 
 @import 'components/nav.scss';
 @import 'components/footer.scss';
+@import 'components/portfolio/portfolio.scss';
 /* @import 'components/home/about.scss'; */
