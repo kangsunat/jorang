@@ -1,8 +1,4 @@
 @layer components {
-  nav {
-    @apply fixed top-0 inset-x-0;
-  }
-
   .nav {
     @apply flex items-center justify-between;
 

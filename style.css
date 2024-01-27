@@ -818,6 +818,11 @@ select {
   inset: -0.25rem !important;
 }
 
+.inset-x-0 {
+  left: 0px !important;
+  right: 0px !important;
+}
+
 .bottom-0 {
   bottom: 0px !important;
 }
@@ -2476,6 +2481,11 @@ select {
   background-color: rgb(236 72 153 / var(--tw-bg-opacity)) !important;
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-rose-300 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(253 164 175 / var(--tw-bg-opacity)) !important;
@@ -2494,6 +2504,11 @@ select {
 .bg-slate-400 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-slate-700 {
@@ -2705,6 +2720,11 @@ select {
 .py-8 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
+}
+
+.py-14 {
+  padding-top: 3.5rem !important;
+  padding-bottom: 3.5rem !important;
 }
 
 .pl-10 {
@@ -3542,13 +3562,6 @@ select {
 .form-checkbox:indeterminate:hover,.form-checkbox:indeterminate:focus {
   border-color: transparent;
   background-color: currentColor;
-}
-
-nav {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  top: 0px;
 }
 
 .nav {

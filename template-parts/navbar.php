@@ -1,5 +1,5 @@
 <!-- menus -->
-<nav>
+<nav class='sticky top-0'>
     <div class="container nav">
 
         <!-- company logo -->
