@@ -5,6 +5,7 @@
     <?php get_template_part('template-parts/about/cover') ?>
     <?php get_template_part('template-parts/about/gallery') ?>
     <?php get_template_part('template-parts/about/about') ?>
+    <?php get_template_part('template-parts/about/video') ?>
 </main>
 
 <?php get_footer(); ?>
