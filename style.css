@@ -843,10 +843,6 @@ select {
   left: 0.25rem !important;
 }
 
-.left-1\/2 {
-  left: 50% !important;
-}
-
 .left-10 {
   left: 2.5rem !important;
 }
@@ -2567,6 +2563,11 @@ select {
   background-color: rgb(147 197 253 / var(--tw-bg-opacity)) !important;
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity)) !important;
@@ -2669,11 +2670,6 @@ select {
 .bg-white {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity)) !important;
 }
 
 .decoration-slice {
