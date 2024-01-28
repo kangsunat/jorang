@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
-<main class="container h-96"> service page</main>
+<main>
+    <?php get_template_part('template-parts/services/header') ?>
+</main>
 
 <?php get_footer(); ?>

@@ -13,4 +13,5 @@ Version: 1.0
 @import 'components/footer.scss';
 @import 'components/portfolio/portfolio.scss';
 @import 'components/contact/form.scss';
+@import 'components/services/header.scss';
 /* @import 'components/home/about.scss'; */
