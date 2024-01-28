@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 
-<main class="container h-96"> about page</main>
+<main class="bg-black">
+    <?php get_template_part('template-parts/about/header') ?>
+    <?php get_template_part('template-parts/about/cover') ?>
+</main>
 
 <?php get_footer(); ?>
