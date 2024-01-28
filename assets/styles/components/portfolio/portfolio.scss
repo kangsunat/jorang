@@ -14,4 +14,12 @@
       @apply aspect-auto w-20;
     }
   }
+
+  .about-our-client {
+    @apply py-10;
+
+    img {
+      @apply aspect-auto w-20;
+    }
+  }
 }
